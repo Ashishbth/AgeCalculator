@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(139, 139, 226);
+    padding:5%;
+}
+.container{
+    width: auto;
+    margin: 7% auto;
+    text-align: center;
+    background-color: rgb(237, 231, 231);
+    border-radius: 0 0 20px 20px;
+}
+
+
+h2{
+    padding: 10px;
+    color: rgba(31, 7, 151, 0.995);
+}
+
+h3{
+    padding: 20px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(179, 51, 11, 0.607);
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+input{
+    margin: 2% 0;
+    height: 52%;
+    width: 60%;
+}
+
+input:hover{
+    border-radius: 2px solid green;
+}
+
+.component{
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    justify-content: space-around;
+    /* background: #000; */
+    color: white;
+}
+p{
+    height: 10vh;
+    /* text-align: center; */
+}
+
+.component p input{
+   width: 200%;
+
+}
+button{
+    margin-top: 2%;
+    width: 15%;
+    height: 40%;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background: aqua;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+}

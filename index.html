@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <marquee behavior="" direction="">
+        <h1>Welcome To Age Calculator by Ashish Kumar</h1>
+    </marquee>
+    <div class="container">
+        <h2>Age Calculator</h2>
+        <hr>
+        <form >
+        <div class="component">
+            <p>
+                <label >Date</label><br>
+                <input id="date" type="text" placeholder=" DD" maxlength="2" size="2" required>
+            </p>
+            <p>
+              <label >Month</label><br>  
+              <input id="month" type="text" maxlength="2" size="2" placeholder=" MM" required>
+            </p>
+
+            <p>
+                <label >Year</label><br>
+                <input id="year" type="text" maxlength="4" size="4" placeholder=" YYYY" required>
+            </p>
+        </div>
+
+        <button id="btn" type="submit" value="Submit">Submit</button>
+        <div id="result"></div>
+    </form>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
